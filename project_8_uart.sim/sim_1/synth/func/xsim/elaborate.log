@@ -1,0 +1,15 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot uart_testbench_func_synth xil_defaultlib.uart_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'u_ila_0_rx_cur_st[1]' on this module [E:/Projects/xilinxProject/project_8_uart/project_8_uart.sim/sim_1/synth/func/xsim/uart_testbench_func_synth.v:686]
+ERROR: [VRFC 10-3180] cannot find port 'u_ila_0_rx_cur_st[0]' on this module [E:/Projects/xilinxProject/project_8_uart/project_8_uart.sim/sim_1/synth/func/xsim/uart_testbench_func_synth.v:685]
+ERROR: [VRFC 10-3180] cannot find port 'u_ila_0_count[2]' on this module [E:/Projects/xilinxProject/project_8_uart/project_8_uart.sim/sim_1/synth/func/xsim/uart_testbench_func_synth.v:684]
+ERROR: [VRFC 10-3180] cannot find port 'u_ila_0_count[1]' on this module [E:/Projects/xilinxProject/project_8_uart/project_8_uart.sim/sim_1/synth/func/xsim/uart_testbench_func_synth.v:683]
+ERROR: [VRFC 10-3180] cannot find port 'u_ila_0_count[0]' on this module [E:/Projects/xilinxProject/project_8_uart/project_8_uart.sim/sim_1/synth/func/xsim/uart_testbench_func_synth.v:682]
+ERROR: [VRFC 10-8530] module 'FDRE_default' is ignored due to previous errors [/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/FDRE.v:27]
+ERROR: [VRFC 10-8530] module 'LUT1(INIT=2'b01)' is ignored due to previous errors [/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/LUT1.v:27]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

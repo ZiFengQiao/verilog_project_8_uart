@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+E:/Projects/xilinxProject/project_8_uart/project_8_uart.gen/sources_1/ip/ila_0/sim/ila_0.v,1710246203,verilog,,E:/Projects/xilinxProject/project_8_uart/project_8_uart.srcs/sources_1/new/uart_clk_div.v,,ila_0,,,,,,,,
+E:/Projects/xilinxProject/project_8_uart/project_8_uart.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+E:/Projects/xilinxProject/project_8_uart/project_8_uart.srcs/sim_1/new/uart_testbench.v,1710230814,verilog,,,,uart_testbench,,,,,,,,
+E:/Projects/xilinxProject/project_8_uart/project_8_uart.srcs/sources_1/new/uart_clk_div.v,1710158757,verilog,,E:/Projects/xilinxProject/project_8_uart/project_8_uart.srcs/sources_1/new/uart_rx.v,,uart_clk_div,,,,,,,,
+E:/Projects/xilinxProject/project_8_uart/project_8_uart.srcs/sources_1/new/uart_rx.v,1710410943,verilog,,E:/Projects/xilinxProject/project_8_uart/project_8_uart.srcs/sources_1/new/uart_top.v,,uart_rx,,,,,,,,
+E:/Projects/xilinxProject/project_8_uart/project_8_uart.srcs/sources_1/new/uart_top.v,1710411328,verilog,,E:/Projects/xilinxProject/project_8_uart/project_8_uart.srcs/sources_1/new/uart_tx.v,,uart_top,,,,,,,,
+E:/Projects/xilinxProject/project_8_uart/project_8_uart.srcs/sources_1/new/uart_tx.v,1710298404,verilog,,E:/Projects/xilinxProject/project_8_uart/project_8_uart.srcs/sim_1/new/uart_testbench.v,,uart_tx,,,,,,,,

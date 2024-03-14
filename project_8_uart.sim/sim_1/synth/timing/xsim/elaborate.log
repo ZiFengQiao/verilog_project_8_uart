@@ -1,0 +1,90 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot uart_testbench_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.uart_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "uart_testbench_time_synth.sdf", for root module "uart_testbench/uart_top".
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/count[0]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/count[1]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/count[2]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/count_reg[0] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/count_reg[1] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/count_reg[2] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/data_i[7]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/data_i_reg[0] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/data_i_reg[1] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/data_i_reg[2] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/data_i_reg[3] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/data_i_reg[4] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/data_i_reg[5] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/data_i_reg[6] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/data_i_reg[7] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/rx_cur_st_reg[0] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/rx_cur_st_reg[1] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/rx_ne_INST_0 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/rx_nxt_st_reg[0] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/rx_nxt_st_reg[0]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/rx_nxt_st_reg[1] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/rx_nxt_st_reg[1]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_rx1/rx_nxt_st_reg[1]_i_2 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_cur_st_reg[0] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_cur_st_reg[1] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_cur_st_reg[2] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_cur_st_reg[3] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_nxt_st_reg[0] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_nxt_st_reg[1] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_nxt_st_reg[1]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_nxt_st_reg[2] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_nxt_st_reg[3] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_nxt_st_reg[3]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/FSM_onehot_tx_nxt_st_reg[3]_i_2 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/count[0]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/count[1]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/count[2]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/count_reg[0] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/count_reg[1] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/count_reg[2] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp[0]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp[1]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp[2]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp[3]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp[4]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp[5]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp[6]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp[7]_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp[7]_i_2 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp_reg[0] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp_reg[1] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp_reg[2] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp_reg[3] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp_reg[4] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp_reg[5] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp_reg[6] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/data_o_tmp_reg[7] in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/txd_i_1 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/txd_i_2 in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /uart_testbench/uart_top/uart_tx1/txd_reg in the HDL hierarchy, annotation will be skipped.
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "uart_testbench_time_synth.sdf", for root module "uart_testbench/uart_top".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.FDRE_default
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1(INIT=2'b01)
+Compiling module simprims_ver.CARRY4
+Compiling module xil_defaultlib.uart_clk_div
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_top
+Compiling module xil_defaultlib.uart_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_testbench_time_synth
